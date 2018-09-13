@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+
+header img{
+    width: 6vw; /* vw: viewport width */
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    margin-left: 15px;
+}
+
+nav div{
+    color: red; 
+    text-align: center;
+    justify-content: space-around;
+    margin: 240px;
+    width: 30px;
+}
+
+nav>div{
+    display: inline;
+    text-align: center; 
+    padding: 10px 10px;
+    border: solid;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text h2, .text p{
+    padding: 10px;
+    margin: 20px 10px 0px 10px; /* top right bottom left */
+    color: #395c93;
+
+}
+.text p{
+    
+    font-family: 'Quicksand', sans-serif;
+}
+
+.receita{
+    font-size: 11pt;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.tutorial{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#coxinha{
+    width: 35%;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.rodape button{
+    background-color: midnightblue;
+    color: white;
+    font-size: 12pt; 
+    padding: 12px;
+    border: none;
+}
+
+.rodape button:hover{
+    background-color: blueviolet;
+}
+
+.receita p{
+    margin: 0
+}
+
+.receita p:last-of-type{
+    font-size: 0.8em;
+}
+
+.receita img{
+    border: 2px solid red;
+    padding: 10px;
+}
