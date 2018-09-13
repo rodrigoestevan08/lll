@@ -29,12 +29,15 @@ header img{
     margin-left: 15px;
 }
 
+.menu2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 nav div{
     color: red; 
-    text-align: center;
     justify-content: space-around;
-    margin: 240px;
-    width: 30px;
+    width: 300px;
 }
 
 nav>div{
